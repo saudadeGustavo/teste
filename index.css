@@ -1,0 +1,47 @@
+#tudo {
+    background: url(faculdades_universidade_curso_superior.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+#presentation {
+    width: 40%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 15%;
+    background: rgba(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 1%;
+    padding: 1%;
+}
+
+.row {
+    vertical-align: middle;
+}
+
+.col-lg-4 {
+    border: solid 1px #fff;
+    vertical-align: middle;
+}
+
+#fator {
+    max-width: 100%;
+}
+
+#google {
+    max-width: 100%;
+}
+
+#googleForWork {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  #tudo
+  {
+      background-image: url(bg2short.png);
+  }
+}
