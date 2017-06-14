@@ -4,7 +4,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
 }
 
 #presentation {
@@ -20,11 +20,38 @@
 
 .row {
     vertical-align: middle;
+    height: 20%;
 }
 
 .col-lg-4 {
-    border: solid 1px #fff;
     vertical-align: middle;
+    height: 100%;
+    width: 30%;
+    margin-left: 3%;
+}
+
+#fatorDiv {
+  background: url(fatordigital.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+#googleDiv {
+  background: url(google-partner.png) no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+#forWorkDiv {
+  background: url(googleForWork.png) no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
 #fator {
