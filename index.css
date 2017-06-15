@@ -9,30 +9,16 @@
 }
 
 #presentation {
-    width: 50%;
-    height: 80%;
+    width: 35%;
+    height: 85%;
     margin-left: 10%;
-    margin-top: 15%;
-    background: rgba(0, 0, 0, 0.4);
+    margin-top: 5%;
+    /**background: rgba(0, 0, 0, 0.4);**/
     border: none;
     border-radius: 1%;
     padding: 1%;
 }
 
-#icons {
-    vertical-align: middle;
-    height: 20%;
-}
-
-#texto {
-  height: 80%;
-  width: 90%;
-  margin-left: 5%;
-}
-
-#marketingDigital {
-  font-size: 58px;
-}
 .col-lg-4 {
     vertical-align: middle;
     height: 100%;
@@ -40,6 +26,80 @@
     margin-left: 1.5%;
     margin-right: 1.5%;
 }
+
+#icons {
+    vertical-align: middle;
+    width: 90%;
+    height: 5%;
+    margin-bottom: 5%;
+    /**border: 3px solid #fff;**/
+}
+
+#texto {
+  height: 85%;
+  width: 90%;
+  margin-left: 5%;
+  /**border: 3px solid #fff;**/
+}
+
+#marketingDigital {
+  font-size: 80px;
+  font-weight: bold;
+  color: rgb(255, 201, 38);
+  line-height: 95%;
+  margin-bottom: 5%;
+}
+#instituicoesDeEnsino {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  line-height: 115%;
+}
+#paragrafo {
+  margin-top: 5%;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+
+ul {
+  margin-top: 2%;
+  margin-left: -40px;
+}
+
+ul li{
+  display: inline;
+  font-size: 15px;
+  color: rgb(255, 201, 38);
+  font-weight: bold;
+}
+
+#buttonWrap {
+  width: 50%;
+  margin-top: 5%;
+  border: solid 1px transparent;
+  padding: 1%;
+  -webkit-transition: border 1s, width 1s;
+  transition: border 1s, width 1s;
+}
+
+#conhecaOsServicos {
+  width: 98%;
+  margin-left: 1%;
+  border: solid 1px rgb(255, 201, 38);
+  border-radius: 0px;
+  color: #FFC926;
+  font-weight: bold;
+  background-color: transparent;
+  padding: 5%;
+  -webkit-transition: background-color 1s, color 1s;
+  transition: background-color 1s, color 1s;
+}
+
+.animarBtn {
+    background-color: #FFC926;
+}
+
 
 #fatorDiv {
   background: url(fatordigital.png) no-repeat center center;
@@ -63,18 +123,6 @@
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
-}
-
-#fator {
-    max-width: 100%;
-}
-
-#google {
-    max-width: 100%;
-}
-
-#googleForWork {
-    max-width: 100%;
 }
 
 @media screen and (max-width: 500px) {
