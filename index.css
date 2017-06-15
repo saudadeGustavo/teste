@@ -5,7 +5,6 @@
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
-
 }
 
 #presentation {
@@ -79,8 +78,9 @@ ul li{
   margin-top: 5%;
   border: solid 1px transparent;
   padding: 1%;
-  -webkit-transition: border 1s, width 1s;
-  transition: border 1s, width 1s;
+  -webkit-transition: border 0.5s, width 0.5s, border-radius 0.5s;
+  transition: border 0.5s, width 0.5s, border-radius 0.5s;
+  border-radius: 0px;
 }
 
 #conhecaOsServicos {
@@ -92,14 +92,9 @@ ul li{
   font-weight: bold;
   background-color: transparent;
   padding: 5%;
-  -webkit-transition: background-color 1s, color 1s;
-  transition: background-color 1s, color 1s;
+  -webkit-transition: background-color 1s, color 1s, border-radius 0.5s;
+  transition: background-color 1s, color 1s, border-radius 0.5s;
 }
-
-.animarBtn {
-    background-color: #FFC926;
-}
-
 
 #fatorDiv {
   background: url(fatordigital.png) no-repeat center center;
@@ -123,6 +118,57 @@ ul li{
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
+}
+
+#contact {
+  position: absolute;
+  top: 0%;
+  right: 10%;
+  width: 20%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  float: right;
+}
+
+#formulario {
+  min-width: 100%;
+  height: 90%;
+  margin-top: 15%;
+  border: solid 1px #fff;
+}
+
+#formWrap {
+  border: solid 3px #fff;
+  margin-top: 2%;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+#formColumn {
+  border: solid 3px #fff;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+#buttonWrap2 {
+  border: solid 1px transparent;
+  border-radius: 0px;
+  height: 7%;
+  padding: 1%;
+  -webkit-transition: border 0.5s, width 0.5s, border-radius 0.5s;
+  transition: border 0.5s, width 0.5s, border-radius 0.5s;
+}
+
+#submit {
+  background-color: rgb(255, 201, 38);
+  border-radius: 0px;
+  color: #fff;
+  font-weight: bold;
+  height: 98%;
+  width: 98%;
+  margin-left: 1%;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 @media screen and (max-width: 500px) {
