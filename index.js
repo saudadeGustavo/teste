@@ -4,7 +4,6 @@ $("#buttonWrap").hover(
     $('#conhecaOsServicos').css('background-color', 'FFC926')
     $('#conhecaOsServicos').css('color', '#fff')
     $('#buttonWrap').css('border', 'solid 1px #FFC926')
-    $('#buttonWrap').css('width', '55%')
     $('#buttonWrap').css('border-radius', '5px')
     $('#conhecaOsServicos').css('border-radius', '5px')
   },
@@ -12,7 +11,6 @@ $("#buttonWrap").hover(
     $('#conhecaOsServicos').css('background-color','transparent')
     $('#conhecaOsServicos').css('color', 'FFC926')
     $('#buttonWrap').css('border', 'solid 1px transparent')
-    $('#buttonWrap').css('width', '50%')
     $('#buttonWrap').css('border-radius', '0px')
     $('#conhecaOsServicos').css('border-radius', '0px')
   }
@@ -66,7 +64,12 @@ $('#btnShowForm').on('click', function(){
   $('#contact').css('top', '0%');
   $('#btnHideForm').css('display', 'block');
   $('#btnShowForm').css('display', 'none');
-})
+});
+
+$('#cotacaoMobile').on('click', function(){
+  $('#presentation').css('display', 'none');
+  $('#contact').css('display', 'block');
+});
 
 // =============== CONTADOR DE CARACTERES ===========================
 $(document).ready(function(){

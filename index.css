@@ -96,6 +96,30 @@ ul li{
   transition: background-color 1s, color 1s, border-radius 0.5s;
 }
 
+#buttonWrap3 {
+  width: 50%;
+  margin-top: 5%;
+  border: solid 1px transparent;
+  padding: 1%;
+  -webkit-transition: border 0.5s, width 0.5s, border-radius 0.5s;
+  transition: border 0.5s, width 0.5s, border-radius 0.5s;
+  border-radius: 0px;
+}
+
+#cotacaoMobile {
+  width: 98%;
+  margin-left: 1%;
+  border: solid 1px rgb(255, 201, 38);
+  border-radius: 0px;
+  color: #FFC926;
+  font-weight: bold;
+  background-color: transparent;
+  padding: 5%;
+  -webkit-transition: background-color 1s, color 1s, border-radius 0.5s;
+  transition: background-color 1s, color 1s, border-radius 0.5s;
+  display: none;
+}
+
 #fatorDiv {
   background: url(fatordigital.png) no-repeat center center;
   -webkit-background-size: cover;
@@ -221,11 +245,80 @@ h3 {
   transition: background-color 0.5s, color 0.5s;
 }
 
+/* ----------- Media queries ------------------ */
 
+/* MOBILE DEVICES */
+@media screen and (min-width: 320px)
+  and (max-width: 1000px) {
+  #tudo
+  {
+      background-image: url(bgShort.jpg);
+  }
+
+  #presentation {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    -webkit-transition: display 0.5s;
+    transition: display 0.5s;
+  }
+  #icons {
+    width: 100%;
+    height: 8%;
+    margin-left: 0%;
+    display: flex;
+  }
+  #texto {
+    height: 60%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 55%;
+    border: solid 3px #fff;
+  }
+  #marketingDigital {
+    font-size: 125px;
+  }
+  #instituicoesDeEnsino {
+    font-size: 50px;
+  }
+  #paragrafo {
+    font-size: 32px;
+  }
+  ul li {
+    font-size: 23px;
+  }
+  #conhecaOsServicos {
+    font-size: 36px;
+  }
+  #buttonWrap {
+    width: 100%;
+  }
+  #buttonWrap3 {
+    width: 100%;
+  }
+  #cotacaoMobile {
+    font-size: 36px;
+    display: block;
+  }
+  #contact {
+    display: none;
+    top:30%;
+    width: 100%;
+    height: 70%;
+    right: 0%; 
+    -webkit-transition: display 0.5s;
+    transition: display 0.5s;
+  }
+  h3 {
+    font-size: 50px;
+  }
+}
 
 /* ----------- Desktops and laptops ----------- */
-@media screen and (min-device-width: 1000px) 
-  and (max-device-width: 1125px) {
+@media screen and (min-width: 1000px) 
+  and (max-width: 1125px) {
     #presentation {
     width: 45%;
     margin-left: 5%;
@@ -250,7 +343,7 @@ h3 {
       float: left;
     }
     #buttonWrap {
-      width: 65%;
+      width: 70%;
     }
     #contact {
       width: 30%;
@@ -270,8 +363,8 @@ h3 {
     }
 }
 
-@media screen and (min-device-width: 1125px)
-  and (max-device-width: 1200px)
+@media screen and (min-width: 1125px)
+  and (max-width: 1200px)
 {
   #presentation {
     width: 45%;
@@ -318,8 +411,8 @@ h3 {
 }
 
 
-@media screen and (min-device-width: 1200px) 
-  and (max-device-width: 1306px)  {
+@media screen and (min-width: 1200px) 
+  and (max-width: 1306px)  {
   
   #presentation {
     width: 40%;
@@ -363,8 +456,8 @@ h3 {
   }
 }
 
-@media screen and (min-device-width: 1306px) 
-  and (max-device-width: 1400px) {
+@media screen and (min-width: 1306px) 
+  and (max-width: 1400px) {
     #presentation {
     width: 40%;
   }
@@ -408,8 +501,8 @@ h3 {
   }
 
 
-@media screen and (min-device-width: 1400px) 
-  and (max-device-width: 1500px) {
+@media screen and (min-width: 1400px) 
+  and (max-width: 1500px) {
     #presentation {
       width: 45%;
     }
@@ -441,8 +534,8 @@ h3 {
     }
 }
 
-@media screen and (min-device-width: 1500px) 
-  and (max-device-width: 1700px) {
+@media screen and (min-width: 1500px) 
+  and (max-width: 1700px) {
     
     #presentation {
       width: 40%;
@@ -476,8 +569,8 @@ h3 {
     
   }
 
-  @media screen and (min-device-width: 1700px) 
-    and (max-device-width: 1960px) {
+  @media screen and (min-width: 1700px) 
+    and (max-width: 1960px) {
       #presentation {
         width: 40%;
       }
@@ -509,8 +602,8 @@ h3 {
       }
     }
 
-    @media screen and (min-device-width: 1960px) 
-    and (max-device-width: 2100px) {
+    @media screen and (min-width: 1960px) 
+    and (max-width: 2100px) {
       #presentation {
         width: 40%;
       }
@@ -541,12 +634,3 @@ h3 {
         font-size: 18px;
       }
     }
-
-
-/* MOBILE DEVICES */
-@media screen and (max-width: 500px) {
-  #tudo
-  {
-      background-image: url(bg2short.png);
-  }
-}
