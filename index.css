@@ -68,7 +68,7 @@ ul {
 
 ul li{
   display: inline;
-  font-size: 15px;
+  font-size: 13px;
   color: rgb(255, 201, 38);
   font-weight: bold;
 }
@@ -128,12 +128,62 @@ ul li{
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
   float: right;
+  -webkit-transition: top 1s;
+  transition: top 1s;
+}
+
+#btnHideForm {
+  height: 5%;
+  background: #FFC926;
+  color: #fff;
+  font-size: 18px;
+  border: solid 1px #FFC926;
+  border-radius: 0px;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+#btnShowForm {
+  height: 5%;
+  display: none;
+  background: #FFC926;
+  color: #fff;
+  font-size: 18px;
+  border: solid 1px #FFC926;
+  border-radius: 0px;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+h3 {
+  color: #fff;
+}
+#liguePraNosDiv {
+  border: solid 3px #fff;
+  width: 100%;
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#ddd {
+  color: #fff;
+  font-size: 20px;
+}
+#telefoneFatordigital {
+  color: #fff;
+  font-size: 40px;
+}
+
+#emailFatordigital {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
 }
 
 #formulario {
   min-width: 100%;
   height: 90%;
-  margin-top: 15%;
+  margin-top: 5%;
   border: solid 1px #fff;
 }
 
@@ -171,9 +221,108 @@ ul li{
   transition: background-color 0.5s, color 0.5s;
 }
 
-@media screen and (max-width: 1366px) {
+
+
+/* ----------- Desktops and laptops ----------- */
+@media screen and (min-device-width: 1000px) 
+  and (max-device-width: 1125px) {
+    #presentation {
+    width: 45%;
+    margin-left: 5%;
+    }
+    #marketingDigital {
+      font-size: 50px;
+    }
+    #instituicoesDeEnsino  {
+      font-size: 20px;
+    }
+    #paragrafo {
+      font-size: 14px;
+    }
+    ul li {
+      font-size: 10px;
+    }
+    #icons {
+      height: 5%;
+      width: 100%;
+    }
+    .col-lg-4 {
+      float: left;
+    }
+    #buttonWrap {
+      width: 65%;
+    }
+    #contact {
+      width: 30%;
+      right: 5%;
+    }
+    #btnShowForm {
+      font-size: 15px
+    }
+    #formulario {
+      margin-top: 0%;
+    }
+    #formWrap {
+      margin-top: 0%;
+    }
+    #message {
+      height: 15%;
+    }
+}
+
+@media screen and (min-device-width: 1125px)
+  and (max-device-width: 1200px)
+{
   #presentation {
     width: 45%;
+    margin-left: 5%;
+    }
+    #marketingDigital {
+      font-size: 50px;
+    }
+    #instituicoesDeEnsino  {
+      font-size: 20px;
+    }
+    #paragrafo {
+      font-size: 16px;
+    }
+    ul li {
+      font-size: 11px;
+    }
+    #icons {
+      height: 5%;
+      width: 100%;
+    }
+    .col-lg-4 {
+      float: left;
+    }
+    #buttonWrap {
+      width: 65%;
+    }
+    #contact {
+      width: 30%;
+      right: 5%;
+    }
+    #btnShowForm {
+      font-size: 15px
+    }
+    #formulario {
+      margin-top: 0%;
+    }
+    #formWrap {
+      margin-top: 0%;
+    }
+    #message {
+      height: 15%;
+    }
+}
+
+
+@media screen and (min-device-width: 1200px) 
+  and (max-device-width: 1306px)  {
+  
+  #presentation {
+    width: 40%;
   }
   #marketingDigital {
     font-size: 60px;
@@ -184,14 +333,19 @@ ul li{
   }
 
   #paragrafo {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   #icons {
-    height: 10%;
+    height: 6%;
+    width: 100%;
+  }
+
+  .col-lg-4 {
+    float: left;
   }
   #contact {
-    width: 35%;
+    width: 30%;
     right: 5%;
   }
   #formulario {
@@ -205,10 +359,191 @@ ul li{
   }
 
   ul li {
-    font-size: 13px;
+    font-size: 10px;
   }
 }
 
+@media screen and (min-device-width: 1306px) 
+  and (max-device-width: 1400px) {
+    #presentation {
+    width: 40%;
+  }
+    #marketingDigital {
+      font-size: 60px;
+    }
+
+    #instituicoesDeEnsino  {
+      font-size: 20px;
+    }
+
+    #paragrafo {
+      font-size: 16px;
+    }
+
+    #icons {
+      height: 6%;
+      width: 100%;
+    }
+
+    .col-lg-4 {
+      float: left;
+    }
+    #contact {
+      width: 30%;
+      right: 5%;
+    }
+    #formulario {
+      margin-top: 0%;
+    }
+    #formWrap {
+      margin-top: 0%;
+    }
+    #message {
+      height: 15%;
+    }
+
+    ul li {
+      font-size: 10px;
+    }
+  }
+
+
+@media screen and (min-device-width: 1400px) 
+  and (max-device-width: 1500px) {
+    #presentation {
+      width: 45%;
+    }
+    #marketingDigital {
+      font-size: 60px;
+    }
+
+    #instituicoesDeEnsino  {
+      font-size: 20px;
+    }
+
+    #paragrafo {
+      font-size: 19px;
+    }
+
+    #icons {
+      height: 6%;
+    }
+    
+    #contact {
+      width: 27%;
+      right: 5%;
+    }
+    #message {
+      height: 15%;
+    }
+    ul li {
+      font-size: 12px;
+    }
+}
+
+@media screen and (min-device-width: 1500px) 
+  and (max-device-width: 1700px) {
+    
+    #presentation {
+      width: 40%;
+    }
+    #marketingDigital {
+      font-size: 60px;
+    }
+
+    #instituicoesDeEnsino  {
+      font-size: 20px;
+    }
+
+    #paragrafo {
+      font-size: 19px;
+    }
+
+    #icons {
+      height: 6%;
+    }
+    
+    #contact {
+      width: 25%;
+      right: 5%;
+    }
+    #message {
+      height: 10%;
+    }
+    ul li { 
+      font-size: 12px;
+    }
+    
+  }
+
+  @media screen and (min-device-width: 1700px) 
+    and (max-device-width: 1960px) {
+      #presentation {
+        width: 40%;
+      }
+      #marketingDigital {
+        font-size: 68px;
+      }
+
+      #instituicoesDeEnsino  {
+        font-size: 23px;
+      }
+
+      #paragrafo {
+        font-size: 22px;
+      }
+
+      #icons {
+        height: 6%;
+      }
+      
+      #contact {
+        width: 22%;
+        right: 5%;
+      }
+      #message {
+        height: 13%;
+      }
+      ul li { 
+        font-size: 15px;
+      }
+    }
+
+    @media screen and (min-device-width: 1960px) 
+    and (max-device-width: 2100px) {
+      #presentation {
+        width: 40%;
+      }
+      #marketingDigital {
+        font-size: 72px;
+      }
+
+      #instituicoesDeEnsino  {
+        font-size: 27px;
+      }
+
+      #paragrafo {
+        font-size: 24px;
+      }
+
+      #icons {
+        height: 6%;
+      }
+      
+      #contact {
+        width: 22%;
+        right: 5%;
+      }
+      #message {
+        height: 13%;
+      }
+      ul li { 
+        font-size: 18px;
+      }
+    }
+
+
+/* MOBILE DEVICES */
 @media screen and (max-width: 500px) {
   #tudo
   {
