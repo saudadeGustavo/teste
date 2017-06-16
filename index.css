@@ -12,7 +12,7 @@
     height: 85%;
     margin-left: 10%;
     margin-top: 5%;
-    /**background: rgba(0, 0, 0, 0.4);**/
+    background: rgba(0, 0, 0, 0.4);
     border: none;
     border-radius: 1%;
     padding: 1%;
@@ -31,7 +31,7 @@
     width: 90%;
     height: 5%;
     margin-bottom: 5%;
-    /**border: 3px solid #fff;**/
+    border: 3px solid #fff;
 }
 
 #texto {
@@ -169,6 +169,44 @@ ul li{
   margin-left: 1%;
   -webkit-transition: background-color 0.5s, color 0.5s;
   transition: background-color 0.5s, color 0.5s;
+}
+
+@media screen and (max-width: 1366px) {
+  #presentation {
+    width: 45%;
+  }
+  #marketingDigital {
+    font-size: 60px;
+  }
+
+  #instituicoesDeEnsino  {
+    font-size: 20px;
+  }
+
+  #paragrafo {
+    font-size: 18px;
+  }
+
+  #icons {
+    height: 10%;
+  }
+  #contact {
+    width: 35%;
+    right: 5%;
+  }
+  #formulario {
+    margin-top: 0%;
+  }
+  #formWrap {
+    margin-top: 0%;
+  }
+  #message {
+    height: 15%;
+  }
+
+  ul li {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 500px) {
