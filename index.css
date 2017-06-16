@@ -304,15 +304,111 @@ h3 {
   }
   #contact {
     display: none;
-    top:30%;
+    top:25%;
     width: 100%;
-    height: 70%;
+    height: 75%;
     right: 0%; 
     -webkit-transition: display 0.5s;
     transition: display 0.5s;
   }
   h3 {
     font-size: 50px;
+  }
+
+  #name {
+    height: 8%;
+  }
+  #name::-webkit-input-placeholder {
+    font-size: 25px;
+  }
+  #name::-moz-placeholder {
+    font-size: 25px;
+  }
+  #name:-moz-placeholder {
+    font-size: 25px;
+  }
+  #name:-ms-input-placeholder {
+    font-size: 25px;
+  }
+
+  #email {
+    height: 8%;
+  }
+  #email::-webkit-input-placeholder {
+    font-size: 25px;
+  }
+  #email::-moz-placeholder {
+    font-size: 25px;
+  }
+  #email:-moz-placeholder {
+    font-size: 25px;
+  }
+  #email:-ms-input-placeholder {
+    font-size: 25px;
+  }
+
+  #mobile {
+    height: 8%;
+  }
+  #mobile::-webkit-input-placeholder {
+    font-size: 25px;
+  }
+  #mobile::-moz-placeholder {
+    font-size: 25px;
+  }
+  #mobile:-moz-placeholder {
+    font-size: 25px;
+  }
+  #mobile:-ms-input-placeholder {
+    font-size: 25px;
+  }
+
+  #subject {
+    height: 8%;
+  }
+  #subject::-webkit-input-placeholder {
+    font-size: 25px;
+  }
+  #subject::-moz-placeholder {
+    font-size: 25px;
+  }
+  #subject:-moz-placeholder {
+    font-size: 25px;
+  }
+  #subject:-ms-input-placeholder {
+    font-size: 25px;
+  }
+
+  #message::-webkit-input-placeholder {
+    font-size: 25px;
+  }
+  #message::-moz-placeholder {
+    font-size: 25px;
+  }
+  #message:-moz-placeholder {
+    font-size: 25px;
+  }
+  #message:-ms-input-placeholder {
+    font-size: 25px;
+  }
+
+  #ddd {
+    font-size: 40px;
+  }
+  #telefoneFatordigital {
+    font-size: 55px;
+  }
+  #emailFatordigital {
+    font-size: 35px;
+  }
+
+
+  #buttonWrap2 {
+    height: 10%;
+    font-size: 20px;
+  }
+  #submit {
+    font-size: 35px;
   }
 }
 
@@ -409,7 +505,6 @@ h3 {
       height: 15%;
     }
 }
-
 
 @media screen and (min-width: 1200px) 
   and (max-width: 1306px)  {
