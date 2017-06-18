@@ -55,7 +55,7 @@ $('#btnHideForm').hover(
 
 //=============== BUTTON ACTIONS ====================================
 $('#btnHideForm').on('click', function(){
-  $('#contact').css('top', '94%');
+  $('#contact').css('top', '92%');
   $('#btnHideForm').css('display', 'none');
   $('#btnShowForm').css('display', 'block');
 });
@@ -69,6 +69,11 @@ $('#btnShowForm').on('click', function(){
 $('#cotacaoMobile').on('click', function(){
   $('#presentation').css('display', 'none');
   $('#contact').css('display', 'block');
+});
+
+$('#btnHome').on('click', function(){
+  $('#presentation').css('display', 'block');
+  $('#contact').css('display', 'none');
 });
 
 // =============== CONTADOR DE CARACTERES ===========================
